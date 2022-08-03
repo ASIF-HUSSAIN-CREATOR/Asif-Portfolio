@@ -1,0 +1,44 @@
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+    padding-top: 2rem
+}
+.btn{
+    text-transform: uppercase;
+    color: black;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+
+}
+.btn-primary{
+background-color:aquamarine;
+border-color: white;
+margin-right: 100px;    
+}
+.btn-primary:hover{
+    color: aquamarine;
+    background: transparent;
+    border-color: aquamarine;
+}
+.btn-secondary{
+    
+    border-color: white;
+    background-color:aquamarine;
+    
+}
+.btn-secondary:hover{
+    color: aquamarine;
+    border-color: aquamarine;
+    background: transparent;
+}
+
+.flex-1{
+    flex:1;
+}
